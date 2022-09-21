@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import { Header } from "./components/Header";
 import { Blog } from "./routes/Blog";

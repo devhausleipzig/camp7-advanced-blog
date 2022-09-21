@@ -1,21 +1,6 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "My first Blog Post updated",
-      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione aliquid sunt facilis? Ut est ullam ratione doloribus perspiciatis itaque sequi dolore consequuntur fugit molestiae, quas magnam deserunt quam rerum ipsam. Aliquam, totam mollitia? Minus, magnam incidunt harum recusandae reprehenderit eaque rem maxime at quia? Veritatis sunt quia laboriosam dolores delectus illum minus aliquid blanditiis qui, ad perspiciatis earum eveniet molestiae, sed repellat reprehenderit consectetur! Qui culpa expedita odio ea harum iure beatae praesentium repellat porro, quasi delectus ex autem rem molestiae nihil quia ipsam consectetur tempore minus illo quidem, eius nostrum nam? Nostrum dolorum non odit expedita accusantium vel impedit ea libero iste nulla nisi, alias recusandae laboriosam ab tempore illum nesciunt aliquam nemo pariatur distinctio architecto! Ea vel quibusdam doloribus praesentium tempora quo doloremque nam voluptate aliquid quis temporibus ipsam cupiditate quasi architecto quia tenetur neque, eaque, nostrum reiciendis maiores numquam! Nobis commodi ducimus nam quasi vitae! Aspernatur, in est libero labore, corporis nostrum, illum totam soluta nisi error blanditiis consectetur vitae? Ipsum blanditiis quo cupiditate incidunt eligendi, quis dolore recusandae modi impedit, sed id dolorum nihil quibusdam quod? Laborum qui et ut dolor mollitia neque blanditiis doloremque eos dolorem atque, quasi accusantium, possimus delectus corrupti. Nesciunt, eum voluptas!"
-    },
-    {
-      "id": 2,
-      "title": "My second Blog Post",
-      "content": "This is my second blog post\nsome more content"
-    },
-    {
-      "title": "My third Blog Post",
-      "content": "Some stupid content",
-      "id": 3
-    },
-    {
       "title": "My fouth Blog Post",
       "content": "Some more content",
       "id": 4
@@ -36,27 +21,5 @@
       "id": 7
     }
   ],
-  "comments": [
-    {
-      "name": "Dan",
-      "message": "my comment",
-      "postId": 1,
-      "createdAt": "2022-09-21T08:51:29.816Z",
-      "id": 1
-    },
-    {
-      "name": "Dan",
-      "message": "kalsjdklasjd",
-      "postId": 1,
-      "createdAt": "2022-09-21T08:57:17.339Z",
-      "id": 2
-    },
-    {
-      "name": "kalsdjkalsjd",
-      "message": "alksjdklajsdlas",
-      "postId": 1,
-      "createdAt": "2022-09-21T08:57:23.514Z",
-      "id": 3
-    }
-  ]
+  "comments": []
 }
