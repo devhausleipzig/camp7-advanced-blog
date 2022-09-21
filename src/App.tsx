@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { Blog } from "./routes/Blog";
 import { CreatePost } from "./routes/CreatePost";
 import { Post } from "./routes/Post";
+import { UpdatePost } from "./routes/UpdatePost";
 
 export interface Post {
   id: number;
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Blog />} />
           <Route path="/post/:id" element={<Post />} />
+          <Route path="/post/:id/edit" element={<UpdatePost />} />
           <Route path="/create" element={<CreatePost />} />
         </Routes>
       </main>

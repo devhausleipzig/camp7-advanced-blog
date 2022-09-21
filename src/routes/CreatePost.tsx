@@ -1,4 +1,6 @@
-import { FormEvent, useState } from "react";
+import { ChangeEvent, FormEvent, useState } from "react";
+import { Post } from "../App";
+import { PostForm } from "../components/PostForm";
 
 const initialPost = {
   title: "",
@@ -7,6 +9,14 @@ const initialPost = {
 
 export function CreatePost() {
   const [post, setPost] = useState(initialPost);
+
+  function updateField(
+    event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+    field: keyof Post
+  ) {
+    setPost({ ...post, [field]: event.target.value });
+  }
+
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     try {
@@ -24,9 +34,16 @@ export function CreatePost() {
       alert("something went wrong");
     }
   }
+
   return (
     <div>
-      <form
+      <PostForm
+        onSubmit={handleSubmit}
+        post={post}
+        updateField={updateField}
+        buttonText="Create Post"
+      />
+      {/* <form
         onSubmit={handleSubmit}
         className="flex flex-col gap-4 max-w-4xl mx-auto"
       >
@@ -47,7 +64,7 @@ export function CreatePost() {
         <button className="bg-slate-700 text-slate-50 p-2" type="submit">
           Create Post
         </button>
-      </form>
+      </form> */}
     </div>
   );
 }

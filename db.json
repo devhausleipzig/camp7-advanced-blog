@@ -2,13 +2,13 @@
   "posts": [
     {
       "id": 1,
-      "title": "My first Blog Post",
+      "title": "My first Blog Post updated",
       "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione aliquid sunt facilis? Ut est ullam ratione doloribus perspiciatis itaque sequi dolore consequuntur fugit molestiae, quas magnam deserunt quam rerum ipsam. Aliquam, totam mollitia? Minus, magnam incidunt harum recusandae reprehenderit eaque rem maxime at quia? Veritatis sunt quia laboriosam dolores delectus illum minus aliquid blanditiis qui, ad perspiciatis earum eveniet molestiae, sed repellat reprehenderit consectetur! Qui culpa expedita odio ea harum iure beatae praesentium repellat porro, quasi delectus ex autem rem molestiae nihil quia ipsam consectetur tempore minus illo quidem, eius nostrum nam? Nostrum dolorum non odit expedita accusantium vel impedit ea libero iste nulla nisi, alias recusandae laboriosam ab tempore illum nesciunt aliquam nemo pariatur distinctio architecto! Ea vel quibusdam doloribus praesentium tempora quo doloremque nam voluptate aliquid quis temporibus ipsam cupiditate quasi architecto quia tenetur neque, eaque, nostrum reiciendis maiores numquam! Nobis commodi ducimus nam quasi vitae! Aspernatur, in est libero labore, corporis nostrum, illum totam soluta nisi error blanditiis consectetur vitae? Ipsum blanditiis quo cupiditate incidunt eligendi, quis dolore recusandae modi impedit, sed id dolorum nihil quibusdam quod? Laborum qui et ut dolor mollitia neque blanditiis doloremque eos dolorem atque, quasi accusantium, possimus delectus corrupti. Nesciunt, eum voluptas!"
     },
     {
       "id": 2,
       "title": "My second Blog Post",
-      "content": "This is my second blog post"
+      "content": "This is my second blog post\nsome more content"
     },
     {
       "title": "My third Blog Post",
@@ -24,6 +24,39 @@
       "title": "My newest blog post",
       "content": "alksdjlaksjdlaksdjalkasdjklasdj",
       "id": 5
+    },
+    {
+      "title": "Test Post",
+      "content": "He’s not a word hero. I fully understand why it’s former users left it for something else. I have a placeholding temperament. It could also be lots of other people. It could be Russia, but it could also be China. No wonder you've been fighting Lorem Ipsum your entire adult life. They’re bringing mistakes. You know, it really doesn’t matter what you write as long as you’ve got a young, and beautiful, piece of text.\n\nDoes everybody know that pig named Lorem Ipsum? Greater than ever before. It's inappropriate. We have so many things that we have to do better ... and certainly ipsum is one of them.\n\nCan you imagine that, the text of your next webpage?! Does everybody know that pig named Lorem Ipsum? Trump Ipsum is calling for a total and complete shutdown of Muslim text entering your website. You’re disgusting.",
+      "id": 6
+    },
+    {
+      "title": "My blog post from a seperate Component",
+      "content": "klasjdklajsdkljakdljaskldklasjd",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "name": "Dan",
+      "message": "my comment",
+      "postId": 1,
+      "createdAt": "2022-09-21T08:51:29.816Z",
+      "id": 1
+    },
+    {
+      "name": "Dan",
+      "message": "kalsjdklasjd",
+      "postId": 1,
+      "createdAt": "2022-09-21T08:57:17.339Z",
+      "id": 2
+    },
+    {
+      "name": "kalsdjkalsjd",
+      "message": "alksjdklajsdlas",
+      "postId": 1,
+      "createdAt": "2022-09-21T08:57:23.514Z",
+      "id": 3
     }
   ]
 }
